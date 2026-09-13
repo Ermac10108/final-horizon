@@ -102,6 +102,9 @@ public sealed partial class ConquestManagerSystem : EntitySystem
 
     private void TryCapture(EntityUid uid, CapturePointComponent comp, CapturePointDoAfter args)
     {
+        if (args.Cancelled)
+            return;
+
         if (!TryComp<GameFactionMemberComponent>(args.User, out var factionComp) ||
             factionComp.Faction == GameFactions.Invalid ||
             comp.PointOwner == factionComp.Faction)
@@ -158,7 +161,7 @@ public sealed partial class ConquestManagerSystem : EntitySystem
 
         if (Manager.Tickets.Count > 0)
         {
-            var winner = Manager.Tickets.Max();
+            var winner = Manager.Tickets.MaxBy(x => x.Value);
 
             if (_timing.CurTime > NextCheck)
             {
