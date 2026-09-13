@@ -21,10 +21,10 @@ namespace Content.Server._FinalHorizon.GameMode;
 public sealed partial class ConquestManagerSystem : EntitySystem
 {
     [Dependency] private readonly SharedChatSystem _chat = default!;
-    [Dependency] private readonly GameTicker _ticker = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
+    [Dependency] private readonly RoundEndSystem _roundEnd = default!;
 
     public ConquestManagerComponent? Manager;
     public TimeSpan NextCheck = TimeSpan.Zero;
@@ -124,7 +124,7 @@ public sealed partial class ConquestManagerSystem : EntitySystem
         Manager?.Enabled = false;
 
         _chat.DispatchGlobalAnnouncement($"{faction} win!", null, false, null, Color.Yellow);
-        _ticker.EndRound($"{faction} win.");
+        _roundEnd.EndRound(TimeSpan.FromMinutes(2));
     }
 
     private void OnManagerStart(EntityUid uid, ConquestManagerComponent comp, ComponentInit args)
