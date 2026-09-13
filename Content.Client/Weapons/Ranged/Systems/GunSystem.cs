@@ -1,6 +1,7 @@
 using Content.Client.Animations;
 using Content.Client.Gameplay;
 using Content.Client.Items;
+using Content.Client.Movement.Components;
 using Content.Client.Weapons.Ranged.Components;
 using Content.Shared.Camera;
 using Content.Shared.CCVar;
@@ -195,6 +196,13 @@ public sealed partial class GunSystem : SharedGunSystem
 
             return;
         }
+
+        // FH start
+        if (TryComp<EyeCursorOffsetComponent>(entity, out var offsetComp))
+        {
+            mousePos = mousePos.Offset(offsetComp.CurrentPosition);
+        }
+        // FH end
 
         // Define target coordinates relative to gun entity, so that network latency on moving grids doesn't fuck up the target location.
         var coordinates = TransformSystem.ToCoordinates(entity, mousePos);
