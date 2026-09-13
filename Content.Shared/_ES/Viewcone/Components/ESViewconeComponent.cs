@@ -56,7 +56,7 @@ public sealed partial class ESViewconeComponent : Component
     public float ConeOffsetTightness = 20f;
 
     [DataField, AutoNetworkedField]
-    public float ConeAngleFloor = 30f;
+    public float ConeAngleFloor = 70f;
     // FH end
 
     // Clientside, used for lerping view angle
