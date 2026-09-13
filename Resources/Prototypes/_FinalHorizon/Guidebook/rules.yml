@@ -1,0 +1,55 @@
+- type: guideEntry
+  id: FHRules
+  name: guide-entry-rules
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_FinalHorizon/Rules/rules_main.xml"
+
+- type: guideEntry
+  id: FHRule1
+  name: guide-entry-rules-c1
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_FinalHorizon/Rules/rule1.xml"
+
+- type: guideEntry
+  id: FHRule2
+  name: guide-entry-rules-c2
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_FinalHorizon/Rules/rule2.xml"
+
+- type: guideEntry
+  id: FHRule3
+  name: guide-entry-rules-c3
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_FinalHorizon/Rules/rule3.xml"
+
+- type: guideEntry
+  id: FHRule4
+  name: guide-entry-rules-c4
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_FinalHorizon/Rules/rule4.xml"
+
+- type: guideEntry
+  id: FHRule5
+  name: guide-entry-rules-c5
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_FinalHorizon/Rules/rule5.xml"
+
+- type: guideEntry
+  id: FHRule6
+  name: guide-entry-rules-c6
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_FinalHorizon/Rules/rule6.xml"
+
+- type: guideEntry
+  id: FHRule7
+  name: guide-entry-rules-c7
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/_FinalHorizon/Rules/rule7.xml"
