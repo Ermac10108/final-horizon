@@ -30,6 +30,23 @@
   - 1.0
   - 1.0
 
+- type: tile
+  id: FHDirt1
+  parent: FHBaseNaturalTile
+  name: FH Dirt 1
+  sprite: /Textures/_FinalHorizon/Tiles/Natural/dirt1.png
+  itemDrop: MaterialDirt
+  baseTurf: FHBaseNaturalTile
+  deconstructTools: [ Digging ]
+  isSubfloor: true
+  heatCapacity: 10000
+  indestructible: true
+  mobSpeed: 0.9
+  variants: 2
+  placementVariants:
+  - 1.0
+  - 1.0
+
 # Stone
 - type: tile
   id: FHStone
@@ -68,6 +85,75 @@
   - 1.0
   - 1.0
   - 1.0
+
+- type: tile
+  id: FHGrass1
+  parent: FHBaseNaturalTile
+  name: FH Grass 1
+  sprite: /Textures/_FinalHorizon/Tiles/Natural/grass1.png
+  baseTurf: FHDirt
+  deconstructTools: [ Digging ]
+  itemDrop: MaterialDirt
+  mobSpeed: 0.75
+  isSubfloor: true
+  heatCapacity: 10000
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+
+- type: tile
+  id: FHGrass2
+  parent: FHBaseNaturalTile
+  name: FH Grass 2
+  sprite: /Textures/_FinalHorizon/Tiles/Natural/grass2.png
+  baseTurf: FHDirt
+  deconstructTools: [ Digging ]
+  itemDrop: MaterialDirt
+  mobSpeed: 0.75
+  isSubfloor: true
+  heatCapacity: 10000
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+
+- type: tile
+  id: FHGrass3
+  parent: FHBaseNaturalTile
+  name: FH Grass 3
+  sprite: /Textures/_FinalHorizon/Tiles/Natural/grass3.png
+  baseTurf: FHDirt
+  deconstructTools: [ Digging ]
+  itemDrop: MaterialDirt
+  mobSpeed: 0.75
+  isSubfloor: true
+  heatCapacity: 10000
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+
+# Farmland
+- type: tile
+  id: FHFarmland
+  parent: FHBaseNaturalTile
+  name: FH Farmland
+  sprite: /Textures/_FinalHorizon/Tiles/Natural/farmland.png
+  itemDrop: MaterialDirt
+  baseTurf: FHDirt
+  deconstructTools: [ Digging ]
+  isSubfloor: true
+  heatCapacity: 10000
+  indestructible: true
+  mobSpeed: 0.70
+  variants: 1
 
 # Sand
 - type: tile

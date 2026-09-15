@@ -1,15 +1,76 @@
+- type: entity
+  id: FHRandomFloraSpawnerBase
+  parent: MarkerBase
+  name: flora spawner
+  components:
+  - type: Sprite
+    sprite: _FinalHorizon/Markers/flora_spawners.rsi
+    state: 1
+  - type: PlacementReplacement
+    key: walls
+
 # temperate
 - type: entity
   id: FHRandomFloraSpawnerTemperate
-  name: random flora spawner
-  suffix: temperate
-  parent: MarkerBase
+  suffix: temperate trees very light
+  parent: FHRandomFloraSpawnerBase
   components:
   - type: Sprite
-    sprite: Markers/atmos.rsi
-    state: base
-  - type: PlacementReplacement
-    key: mapping-spawner
+    state: 1
+  - type: MappingSpawner
+    table: !type:GroupSelector
+      children:
+      - !type:GroupSelector
+        prob: 0.03
+        children:
+        - id: FHTreeDeadTemperate1
+        - id: FHTreeDeadTemperate2
+        - id: FHTreeTall1
+        - id: FHTreeTall2
+        - id: FHTreeTall3
+      - !type:GroupSelector
+        prob: 0.02
+        children:
+        - id: FHDecalSpawnerRockTemperate
+      - !type:GroupSelector
+        prob: 0.25
+        children:
+        - id: FHDecalSpawnerGrassTemperate
+
+- type: entity
+  id: FHRandomFloraSpawnerTemperateLight
+  suffix: temperate trees light
+  parent: FHRandomFloraSpawnerBase
+  components:
+  - type: Sprite
+    state: 2
+  - type: MappingSpawner
+    table: !type:GroupSelector
+      children:
+      - !type:GroupSelector
+        prob: 0.7
+        children:
+        - id: FHTreeDeadTemperate1
+        - id: FHTreeDeadTemperate2
+        - id: FHTreeTall1
+        - id: FHTreeTall2
+        - id: FHTreeTall3
+      - !type:GroupSelector
+        prob: 0.10
+        children:
+        - id: FHDecalSpawnerRockTemperate
+      - !type:GroupSelector
+        prob: 0.40
+        children:
+        - id: FHDecalSpawnerGrassTemperate
+
+- type: entity
+  id: FHRandomFloraSpawnerTemperateMedium
+  suffix: temperate trees medium
+  parent: FHRandomFloraSpawnerBase
+  components:
+  - type: Sprite
+    state: 3
   - type: MappingSpawner
     table: !type:GroupSelector
       children:
@@ -26,30 +87,55 @@
         children:
         - id: FHDecalSpawnerRockTemperate
       - !type:GroupSelector
-        prob: 0.45
+        prob: 0.60
+        children:
+        - id: FHDecalSpawnerGrassTemperate
+
+- type: entity
+  id: FHRandomFloraSpawnerTemperateHeavy
+  suffix: temperate trees heavy
+  parent: FHRandomFloraSpawnerBase
+  components:
+  - type: Sprite
+    state: 4
+  - type: MappingSpawner
+    table: !type:GroupSelector
+      children:
+      - !type:GroupSelector
+        prob: 0.40
+        children:
+        - id: FHTreeDeadTemperate1
+        - id: FHTreeDeadTemperate2
+        - id: FHTreeTall1
+        - id: FHTreeTall2
+        - id: FHTreeTall3
+      - !type:GroupSelector
+        prob: 0.30
+        children:
+        - id: FHDecalSpawnerRockTemperate
+      - !type:GroupSelector
+        prob: 0.80
         children:
         - id: FHDecalSpawnerGrassTemperate
 
 - type: entity
   id: FHRandomFloraSpawnerTemperateNoTree
-  name: random flora spawner NO TREES
-  suffix: temperate
-  parent: MarkerBase
+  suffix: temperate no trees
+  parent: FHRandomFloraSpawnerBase
   components:
   - type: Sprite
-    sprite: Markers/atmos.rsi
-    state: base-hot
+    state: 5
   - type: PlacementReplacement
-    key: mapping-spawner
+    key: walls
   - type: MappingSpawner
     table: !type:GroupSelector
       children:
       - !type:GroupSelector
-        prob: 0.20
+        prob: 0.02
         children:
         - id: FHDecalSpawnerRockTemperate
       - !type:GroupSelector
-        prob: 0.45
+        prob: 0.25
         children:
         - id: FHDecalSpawnerGrassTemperate
 
@@ -102,24 +188,3 @@
     - FHRockBlack8
     - FHRockBlack9
     - FHRockBlack10
-
-- type: entity
-  parent: DecalSpawnerBase
-  id: FHDecalSpawnerGrassFarmland
-  suffix: farmland grass
-  components:
-  - type: Sprite
-    layers:
-    - state: green
-    - state: decal
-  - type: PlacementReplacement
-    key: mapping-spawner
-  - type: RandomDecalSpawner
-    radius: 0.8
-    zIndex: 5
-    deleteSpawnerAfterSpawn: true
-    decals:
-    - FHGrassTall1
-    - FHGrassTall2
-    - FHGrassTall3
-    - FHGrassTall4
