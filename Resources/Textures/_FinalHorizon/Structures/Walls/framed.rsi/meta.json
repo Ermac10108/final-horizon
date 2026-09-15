@@ -1,0 +1,47 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "taken from escal and modified by dallaszzz",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "full"
+      },
+      {
+        "name": "framed0",
+        "directions": 4
+      },
+      {
+        "name": "framed1",
+        "directions": 4
+      },
+      {
+        "name": "framed2",
+        "directions": 4
+      },
+      {
+        "name": "framed3",
+        "directions": 4
+      },
+      {
+        "name": "framed4",
+        "directions": 4
+      },
+      {
+        "name": "framed5",
+        "directions": 4
+      },
+      {
+        "name": "framed6",
+        "directions": 4
+      },
+      {
+        "name": "framed7",
+        "directions": 4
+      }
+    ]
+  }
+  

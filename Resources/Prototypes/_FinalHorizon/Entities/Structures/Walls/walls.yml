@@ -65,3 +65,24 @@
         layer:
         - WallLayer
         density: 4000
+
+- type: entity
+  parent: BaseWall
+  id: FHWallFramed
+  name: framed wall
+  components:
+  - type: Sprite
+    sprite: _FinalHorizon/Structures/Walls/framed.rsi
+  - type: Icon
+    sprite: _FinalHorizon/Structures/Walls/framed.rsi
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls
+    base: framed
