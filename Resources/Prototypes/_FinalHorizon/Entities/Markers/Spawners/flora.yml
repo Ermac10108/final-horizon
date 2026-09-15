@@ -48,7 +48,7 @@
     table: !type:GroupSelector
       children:
       - !type:GroupSelector
-        prob: 0.7
+        prob: 0.07
         children:
         - id: FHTreeDeadTemperate1
         - id: FHTreeDeadTemperate2
