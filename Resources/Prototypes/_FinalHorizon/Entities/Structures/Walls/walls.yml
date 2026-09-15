@@ -86,3 +86,45 @@
   - type: IconSmooth
     key: walls
     base: framed
+
+- type: entity
+  parent: BaseWall
+  id: FHWallFramedHalf
+  name: half framed wall
+  components:
+  - type: Sprite
+    sprite: _FinalHorizon/Structures/Walls/framed_half.rsi
+  - type: Icon
+    sprite: _FinalHorizon/Structures/Walls/framed_half.rsi
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls
+    base: framed
+
+- type: entity
+  parent: BaseWall
+  id: FHWallFramedBlank
+  name: blank framed wall
+  components:
+  - type: Sprite
+    sprite: _FinalHorizon/Structures/Walls/framed_blank.rsi
+  - type: Icon
+    sprite: _FinalHorizon/Structures/Walls/framed_blank.rsi
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls
+    base: framed
