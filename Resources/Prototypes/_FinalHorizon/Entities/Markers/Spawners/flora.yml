@@ -149,7 +149,7 @@
     - state: green
     - state: decal
   - type: RandomDecalSpawner
-    radius: 0.3
+    radius: 0
     zIndex: 5
     deleteSpawnerAfterSpawn: true
     decals:
@@ -163,14 +163,6 @@
     - Bushh1
     - Bushh2
     - Bushh3
-    - Bushg1
-    - Bushg2
-    - Bushg3
-    - Bushg4
-    - Bushi1
-    - Bushi2
-    - Bushi3
-    - Bushi4
 
 - type: entity
   parent: DecalSpawnerBase
@@ -182,7 +174,7 @@
     - state: green
     - state: decal
   - type: RandomDecalSpawner
-    radius: 0.3
+    radius: 0
     zIndex: 5
     deleteSpawnerAfterSpawn: true
     decals:

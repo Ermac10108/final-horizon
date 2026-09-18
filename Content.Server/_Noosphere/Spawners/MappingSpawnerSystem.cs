@@ -16,10 +16,10 @@ public sealed partial class MappingSpawnerSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<MappingSpawnerComponent, ComponentInit>(OnCompInit);
+        SubscribeLocalEvent<MappingSpawnerComponent, MapInitEvent>(OnMapInit);
     }
 
-    private void OnCompInit(EntityUid uid, MappingSpawnerComponent comp, ComponentInit args)
+    private void OnMapInit(EntityUid uid, MappingSpawnerComponent comp, MapInitEvent args)
     {
         SpawnEntitys(comp, true, false);
     }
