@@ -29,11 +29,11 @@
         - id: FHTreeTall2
         - id: FHTreeTall3
       - !type:GroupSelector
-        prob: 0.02
+        prob: 0.8
         children:
         - id: FHDecalSpawnerRockTemperate
       - !type:GroupSelector
-        prob: 0.25
+        prob: 0.80
         children:
         - id: FHDecalSpawnerGrassTemperate
 
@@ -56,11 +56,11 @@
         - id: FHTreeTall2
         - id: FHTreeTall3
       - !type:GroupSelector
-        prob: 0.10
+        prob: 0.15
         children:
         - id: FHDecalSpawnerRockTemperate
       - !type:GroupSelector
-        prob: 0.40
+        prob: 0.80
         children:
         - id: FHDecalSpawnerGrassTemperate
 
@@ -83,11 +83,11 @@
         - id: FHTreeTall2
         - id: FHTreeTall3
       - !type:GroupSelector
-        prob: 0.20
+        prob: 0.40
         children:
         - id: FHDecalSpawnerRockTemperate
       - !type:GroupSelector
-        prob: 0.60
+        prob: 0.80
         children:
         - id: FHDecalSpawnerGrassTemperate
 
@@ -102,7 +102,7 @@
     table: !type:GroupSelector
       children:
       - !type:GroupSelector
-        prob: 0.40
+        prob: 0.60
         children:
         - id: FHTreeDeadTemperate1
         - id: FHTreeDeadTemperate2
@@ -135,7 +135,7 @@
         children:
         - id: FHDecalSpawnerRockTemperate
       - !type:GroupSelector
-        prob: 0.25
+        prob: 0.80
         children:
         - id: FHDecalSpawnerGrassTemperate
 
@@ -163,6 +163,14 @@
     - Bushh1
     - Bushh2
     - Bushh3
+    - Bushg1
+    - Bushg2
+    - Bushg3
+    - Bushg4
+    - Bushi1
+    - Bushi2
+    - Bushi3
+    - Bushi4
 
 - type: entity
   parent: DecalSpawnerBase

@@ -15,9 +15,16 @@ public sealed partial class MappingSpawnerSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
+
+        SubscribeLocalEvent<MappingSpawnerComponent, ComponentInit>(OnCompInit);
     }
 
-    public void SpawnEntitys(MappingSpawnerComponent comp, bool delete)
+    private void OnCompInit(EntityUid uid, MappingSpawnerComponent comp, ComponentInit args)
+    {
+        SpawnEntitys(comp, true, false);
+    }
+
+    public void SpawnEntitys(MappingSpawnerComponent comp, bool delete, bool decals = true)
     {
 
         var xform = Transform(comp.Owner);
@@ -32,7 +39,7 @@ public sealed partial class MappingSpawnerSystem : EntitySystem
             var trueCoords = coords.Offset(vOffset);
 
             var spawnedEnt = Spawn(proto, trueCoords, rotation: rotation);
-            if (HasComp<RandomDecalSpawnerComponent>(spawnedEnt))
+            if (decals && HasComp<RandomDecalSpawnerComponent>(spawnedEnt))
             {
                 _decalSpawner.TrySpawn(spawnedEnt);
                 QueueDel(spawnedEnt);
