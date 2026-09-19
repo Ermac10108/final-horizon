@@ -8,11 +8,7 @@
     },
     "states": [
         {
-            "name": "equipped-HELMET",
-            "directions": 4
-        },
-        {
-            "name": "folded-equipped-HELMET",
+            "name": "equipped-OUTERCLOTHING",
             "directions": 4
         },
         {
