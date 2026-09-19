@@ -40,7 +40,7 @@ public sealed partial class ESViewconeComponent : Component
     ///     Instead, use <see cref="ESViewconeAngleSystem.GetModifiedViewconeAngle"/>
     /// </remarks>
     [DataField, AutoNetworkedField]
-    public float BaseConeAngle = 250f;
+    public float BaseConeAngle = 270f;
 
     [DataField, AutoNetworkedField]
     public float ConeFeather = 2f;
@@ -56,7 +56,7 @@ public sealed partial class ESViewconeComponent : Component
     public float ConeOffsetTightness = 20f;
 
     [DataField, AutoNetworkedField]
-    public float ConeAngleFloor = 70f;
+    public float ConeAngleFloor = 30f;
     // FH end
 
     // Clientside, used for lerping view angle
