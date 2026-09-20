@@ -40,16 +40,16 @@ public sealed partial class ESViewconeComponent : Component
     ///     Instead, use <see cref="ESViewconeAngleSystem.GetModifiedViewconeAngle"/>
     /// </remarks>
     [DataField, AutoNetworkedField]
-    public float BaseConeAngle = 270f;
+    public float BaseConeAngle = 270f; // FH
 
     [DataField, AutoNetworkedField]
-    public float ConeFeather = 2f;
+    public float ConeFeather = 8f; // FH
 
     [DataField, AutoNetworkedField]
-    public float ConeIgnoreRadius = 1f;
+    public float ConeIgnoreRadius = 1.5f; // FH
 
     [DataField, AutoNetworkedField]
-    public float ConeIgnoreFeather = 0.04f;
+    public float ConeIgnoreFeather = 0.1f; // FH
 
     // FH start
     [DataField, AutoNetworkedField]
