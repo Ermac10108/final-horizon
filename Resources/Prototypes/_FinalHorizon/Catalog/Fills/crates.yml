@@ -89,7 +89,7 @@
 
 - type: entity
   parent: FHCrateAmmo
-  id: FHCrateFilledAmmoAK74
+  id: FHCrateFilledAmmoPKM
   name: pkm ammo crate
   description: A crate filled with ammo.
   components:
