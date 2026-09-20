@@ -74,8 +74,5 @@
   - type: GunWieldBonus
     minAngle: -45
     maxAngle: -43
-  #- type: SpeedModifiedOnWield
-  #  walkModifier: 0.6
-  #  sprintModifier: 0.6
   - type: WieldableDoAfter
     timer: 0.6

@@ -70,7 +70,6 @@
     appearanceDataInit:
      enum.AmmoVisuals.MagLoaded: false
   - type: FarGunshot
-    range: 260
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/m16_dist.ogg
 
 - type: entity
