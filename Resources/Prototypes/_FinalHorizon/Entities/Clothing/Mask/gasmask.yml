@@ -27,9 +27,9 @@
   description: A mask used to protect your face and lungs from chemical irritants.
   components:
   - type: Sprite
-    sprite: _FinalHorizon/Clothing/Mask/PMG.rsi
+    sprite: _FinalHorizon/Clothing/Mask/pgm.rsi
   - type: Clothing
-    sprite: _FinalHorizon/Clothing/Mask/PMG.rsi
+    sprite: _FinalHorizon/Clothing/Mask/pgm.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
