@@ -19,8 +19,10 @@
     sprite: _FinalHorizon/Clothing/OuterClothing/Vests/pasgt.rsi
   - type: Clothing
     sprite: _FinalHorizon/Clothing/OuterClothing/Vests/pasgt.rsi
-  - type: ExplosionResistance
-    damageCoefficient: 0.70
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.80
 
 - type: entity
   parent: FHClothingOuterArmorBase
@@ -32,68 +34,3 @@
     sprite: _FinalHorizon/Clothing/OuterClothing/Vests/6b2.rsi
   - type: Clothing
     sprite: _FinalHorizon/Clothing/OuterClothing/Vests/6b2.rsi
-
-- type: entity
-  parent: [FHClothingOuterArmorBase, FHClothingPouchBase]
-  id: FHClothingOuterArmor6b2Lifchik
-  name: 6B2 Lifchik Vest
-  description: The standard issue protective vest of the Soviet Army. Not very effective against rifle rounds. Has a lifchik chestrig attached for easy access to ammo.
-  components:
-  - type: Sprite
-    sprite: _FinalHorizon/Clothing/OuterClothing/Vests/6b2_lifchik.rsi
-  - type: Clothing
-    sprite: _FinalHorizon/Clothing/OuterClothing/Vests/6b2_lifchik.rsi
-  - type: Storage
-    maxItemSize: Small
-    grid:
-    - 0,0,2,1
-    whitelist:
-      tags:
-      - MagazineLightRifle
-
-- type: entity
-  parent: [FHClothingOuterArmorBase, FHClothingPouchBase]
-  id: FHClothingOuterArmorLifchik
-  name: Lifchik Rig
-  description: A modern addition to the Soviet Army's arsenal. Allows easy access to AK-74 magazines. Probably can't wear webbing on top of this.
-  components:
-  - type: Sprite
-    sprite: _FinalHorizon/Clothing/OuterClothing/Vests/lifchik.rsi
-  - type: Clothing
-    sprite: _FinalHorizon/Clothing/OuterClothing/Vests/lifchik.rsi
-  - type: Storage
-    maxItemSize: Small
-    grid:
-    - 0,0,2,1
-    whitelist:
-      tags:
-      - MagazineLightRifle
-  - type: ContainerContainer
-    containers:
-      storagebase: !type:Container
-        ents: []
-  - type: UserInterface
-    interfaces:
-      enum.StorageUiKey.Key:
-        type: StorageBoundUserInterface
-
-
-- type: entity
-  parent: [FHClothingOuterArmorBase, FHClothingPouchBase]
-  id: FHClothingOuterArmor6b3
-  name: 6B3 Vest
-  description: An armored vest designed to replace the 6B2. Promises higher ballistic protection and integrated magazine pouches. Only delivers on one of those.
-  components:
-  - type: Sprite
-    sprite: _FinalHorizon/Clothing/OuterClothing/Vests/6b3.rsi
-  - type: Clothing
-    sprite: _FinalHorizon/Clothing/OuterClothing/Vests/6b3.rsi
-  - type: ExplosionResistance
-    damageCoefficient: 0.70
-  - type: Storage
-    maxItemSize: Small
-    grid:
-    - 0,0,2,1
-    whitelist:
-      tags:
-      - MagazineLightRifle
