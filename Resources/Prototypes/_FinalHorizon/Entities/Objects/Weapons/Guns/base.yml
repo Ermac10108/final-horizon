@@ -24,12 +24,8 @@
   - type: PullDoAfter
     pullTime: 1
   - type: FarGunshot
-    range: 120
-    sound: /Audio/_FinalHorizon/Weapons/Guns/Far/ak74.ogg
-  - type: CursorOffsetRequiresWield
-  #- type: EyeCursorOffset
-  #  maxOffset: 16
-  #  pvsIncrease: 0.7
+    range: 150
+    sound: /Audio/_FinalHorizon/Weapons/Guns/Far/ak_dist.ogg
 
 - type: entity
   parent: FHWeaponBase
@@ -50,7 +46,7 @@
     pullTime: 1
   - type: FarGunshot
     range: 150
-    sound: /Audio/_FinalHorizon/Weapons/Guns/Far/m60.ogg
+    sound: /Audio/_FinalHorizon/Weapons/Guns/Far/mg_dist.ogg
   - type: EyeCursorOffset
     maxOffset: 12
     pvsIncrease: 0.5
@@ -89,5 +85,5 @@
     pullTime: 1
   - type: FarGunshot
     range: 150
-    sound: /Audio/_FinalHorizon/Weapons/Guns/Far/rpg.ogg
+    sound: /Audio/_FinalHorizon/Weapons/Guns/Far/rpg_dist.ogg
   - type: GunRequiresWield
