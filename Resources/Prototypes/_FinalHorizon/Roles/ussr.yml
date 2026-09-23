@@ -125,7 +125,8 @@
   playTimeTracker: USSRRifleMan
   startingGear: USSRUniformRifleMan
   icon: "Pact"
-  whitelisted: false
+  whitelisted: true
+  jobRank: PactEnlisted
   joinNotifiyCrew: false
   displayWeight: 3
   special:
@@ -237,6 +238,35 @@
         faction: Warpact
         factionName: "Soviet Army"
 
+- type: job
+  id: USSRReservist
+  name: job-name-USSR-reservist
+  description: job-description-USSR-reservist
+  playTimeTracker: USSRReservist
+  startingGear: USSRUniformReservist
+  icon: "Pact"
+  whitelisted: false
+  joinNotifiyCrew: false
+  displayWeight: 2
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: Fixtures
+        fixtures:
+          fix1:
+            shape:
+              !type:PhysShapeCircle
+              radius: 0.35
+            density: 185
+            restitution: 0.0
+            mask:
+            - MobMaskRedFor
+            layer:
+            - MobLayer
+      - type: GameFactionMember
+        faction: Warpact
+        factionName: "Soviet Army"
+
 - type: playTimeTracker
   id: USSRPlatoonLeader
 
@@ -260,6 +290,9 @@
 
 - type: playTimeTracker
   id: USSRRifleMan
+
+- type: playTimeTracker
+  id: USSRReservist
 
 - type: startingGear
   id: USSRUniformPlatoonLeader
@@ -359,6 +392,19 @@
 
 - type: startingGear
   id: USSRUniformRifleMan
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitUSSRYellow
+    shoes: ClothingShoesBootsJack
+    back: FHClothingBackpackUSSRKit
+    belt: FHClothingBeltUSSRHarness
+    pouchleft: FHClothingPouchUSSRAmmoFilled
+    pouchright: FHClothingPouchUSSRAmmoFilled
+    suitstorage: FHWeaponRifleAK74
+    head: FHClothingHeadHelmetSSH68
+    pocket1: IFAKUSSRFilled
+
+- type: startingGear
+  id: USSRUniformReservist
   equipment:
     jumpsuit: ClothingUniformJumpsuitUSSRYellow
     shoes: ClothingShoesBootsJack
