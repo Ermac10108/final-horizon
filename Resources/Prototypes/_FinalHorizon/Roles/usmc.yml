@@ -6,6 +6,7 @@
   startingGear: USMCUniformPlatoonLeader
   icon: "Nato"
   whitelisted: true
+  jobRank: NatoOfficer
   joinNotifiyCrew: false
   displayWeight: 10
   special:
@@ -52,6 +53,7 @@
   startingGear: USMCUniformTeamLeader
   icon: "Nato"
   whitelisted: true
+  jobRank: NatoNco
   joinNotifiyCrew: false
   displayWeight: 9
   special:
@@ -97,7 +99,8 @@
   playTimeTracker: USMCMachineGunner
   startingGear: USMCUniformMachineGunner
   icon: "Nato"
-  whitelisted: false
+  whitelisted: true
+  jobRank: NatoEnlisted
   joinNotifiyCrew: false
   displayWeight: 6
   special:
@@ -142,7 +145,8 @@
   playTimeTracker: USMCMedic
   startingGear: USMCUniformMedic
   icon: "Nato"
-  whitelisted: false
+  whitelisted: true
+  jobRank: NatoEnlisted
   joinNotifiyCrew: false
   displayWeight: 7
   special:
@@ -189,7 +193,8 @@
   playTimeTracker: USMCSniper
   startingGear: USMCUniformSniper
   icon: "Nato"
-  whitelisted: false
+  whitelisted: true
+  jobRank: NatoEnlisted
   joinNotifiyCrew: false
   displayWeight: 5
   special:
@@ -235,7 +240,8 @@
   playTimeTracker: USMCRTO
   startingGear: USMCUniformRTO
   icon: "Nato"
-  whitelisted: false
+  whitelisted: true
+  jobRank: NatoEnlisted
   joinNotifiyCrew: false
   displayWeight: 8
   special:

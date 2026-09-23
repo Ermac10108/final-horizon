@@ -6,6 +6,7 @@
   startingGear: USSRUniformPlatoonLeader
   icon: "Pact"
   whitelisted: true
+  jobRank: PactOfficer
   joinNotifiyCrew: false
   displayWeight: 10
   special:
@@ -35,6 +36,7 @@
   startingGear: USSRUniformTeamLeader
   icon: "Pact"
   whitelisted: true
+  jobRank: PactNco
   joinNotifiyCrew: false
   displayWeight: 9
   special:
@@ -63,7 +65,8 @@
   playTimeTracker: USSRMachineGunner
   startingGear: USSRUniformMachineGunner
   icon: "Pact"
-  whitelisted: false
+  whitelisted: true
+  jobRank: PactEnlisted
   joinNotifiyCrew: false
   displayWeight: 6
   special:
@@ -92,7 +95,8 @@
   playTimeTracker: USSRMedic
   startingGear: USSRUniformMedic
   icon: "Pact"
-  whitelisted: false
+  whitelisted: true
+  jobRank: PactEnlisted
   joinNotifiyCrew: false
   displayWeight: 7
   special:
@@ -150,7 +154,8 @@
   playTimeTracker: USSRSniper
   startingGear: USSRUniformSniper
   icon: "Pact"
-  whitelisted: false
+  whitelisted: true
+  jobRank: PactEnlisted
   joinNotifiyCrew: false
   displayWeight: 4
   special:
@@ -179,7 +184,8 @@
   playTimeTracker: USSRRTO
   startingGear: USSRUniformRTO
   icon: "Pact"
-  whitelisted: false
+  whitelisted: true
+  jobRank: PactEnlisted
   joinNotifiyCrew: false
   displayWeight: 8
   special:
@@ -208,7 +214,8 @@
   playTimeTracker: USSRAutoRifleMan
   startingGear: USSRUniformAutoRifleMan
   icon: "Pact"
-  whitelisted: false
+  whitelisted: true
+  jobRank: PactEnlisted
   joinNotifiyCrew: false
   displayWeight: 5
   special:
