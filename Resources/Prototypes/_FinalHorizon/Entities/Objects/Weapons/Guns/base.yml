@@ -7,8 +7,8 @@
   - type: WieldableDoAfter
     timer: 0.3
   - type: GunWieldBonus
-    minAngle: -46
-    maxAngle: -46
+    minAngle: -47
+    maxAngle: -47
     angleIncrease: 0
     angleDecay: 0
   - type: Gun
@@ -35,8 +35,8 @@
   - type: WieldableDoAfter
     timer: 0.5
   - type: GunWieldBonus
-    minAngle: -45
-    maxAngle: -45
+    minAngle: -46
+    maxAngle: -46
   - type: Gun
     angleIncrease: 1
   - type: SpeedModifiedOnWield
