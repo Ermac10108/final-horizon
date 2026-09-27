@@ -4,8 +4,8 @@ meta:
   engineVersion: 275.2.0
   forkId: ""
   forkVersion: ""
-  time: 09/27/2026 16:25:34
-  entityCount: 2518
+  time: 09/27/2026 19:58:36
+  entityCount: 2525
 maps:
 - 1
 grids:
@@ -2605,6 +2605,43 @@ entities:
     components:
     - type: Transform
       pos: -5.5,9.5
+      parent: 1
+- proto: BoxFlare
+  entities:
+  - uid: 1629
+    components:
+    - type: Transform
+      pos: 5.2784576,-5.781911
+      parent: 1
+  - uid: 1630
+    components:
+    - type: Transform
+      pos: 5.3826246,-5.7402444
+      parent: 1
+  - uid: 1631
+    components:
+    - type: Transform
+      pos: 5.549291,-5.694411
+      parent: 1
+  - uid: 1632
+    components:
+    - type: Transform
+      pos: 5.524291,-5.6985774
+      parent: 1
+  - uid: 1633
+    components:
+    - type: Transform
+      pos: 5.4451246,-5.7485776
+      parent: 1
+  - uid: 1709
+    components:
+    - type: Transform
+      pos: 5.4451246,-5.7485776
+      parent: 1
+  - uid: 2425
+    components:
+    - type: Transform
+      pos: 5.4076242,-5.756911
       parent: 1
 - proto: Bucket
   entities:

@@ -28,10 +28,11 @@
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/ak_dist.ogg
   - type: EyeCursorOffset
     maxOffset: 16
-    pvsIncrease: 0.8
+    pvsIncrease: 1
   - type: HeldSpeedModifier
     walkModifier: 0.90
     sprintModifier: 0.90
+  - type: CursorOffsetRequiresWield
 
 - type: entity
   parent: FHWeaponBase
@@ -52,7 +53,7 @@
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/mg_dist.ogg
   - type: EyeCursorOffset
     maxOffset: 16
-    pvsIncrease: 0.8
+    pvsIncrease: 1
   - type: HeldSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.85
@@ -75,7 +76,7 @@
     sprintModifier: 0.80
   - type: EyeCursorOffset
     maxOffset: 23
-    pvsIncrease: 1.5
+    pvsIncrease: 1.8
 
 - type: entity
   parent: BaseItem
