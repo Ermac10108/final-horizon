@@ -69,8 +69,3 @@
      enum.AmmoVisuals.MagLoaded: false
   - type: FarGunshot
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/ak_dist.ogg
-  - type: GunWieldBonus
-    minAngle: -47
-    maxAngle: -47
-  - type: WieldableDoAfter
-    timer: 0.6

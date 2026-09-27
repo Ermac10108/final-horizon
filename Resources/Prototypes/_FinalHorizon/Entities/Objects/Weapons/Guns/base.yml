@@ -5,7 +5,7 @@
   components:
   - type: Wieldable
   - type: WieldableDoAfter
-    timer: 0.3
+    timer: 0.5
   - type: GunWieldBonus
     minAngle: -47
     maxAngle: -47
@@ -22,10 +22,16 @@
     walkModifier: 0.95
     sprintModifier: 0.95
   - type: PullDoAfter
-    pullTime: 1
+    pullTime: 2
   - type: FarGunshot
     range: 150
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/ak_dist.ogg
+  - type: EyeCursorOffset
+    maxOffset: 16
+    pvsIncrease: 0.8
+  - type: HeldSpeedModifier
+    walkModifier: 0.90
+    sprintModifier: 0.90
 
 - type: entity
   parent: FHWeaponBase
@@ -39,17 +45,17 @@
     maxAngle: -46
   - type: Gun
     angleIncrease: 1
-  - type: SpeedModifiedOnWield
-    walkModifier: 0.90
-    sprintModifier: 0.90
   - type: PullDoAfter
-    pullTime: 1
+    pullTime: 2
   - type: FarGunshot
     range: 150
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/mg_dist.ogg
   - type: EyeCursorOffset
-    maxOffset: 12
-    pvsIncrease: 0.5
+    maxOffset: 16
+    pvsIncrease: 0.8
+  - type: HeldSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
 
 - type: entity
   parent: FHWeaponBase
@@ -68,8 +74,8 @@
     walkModifier: 0.80
     sprintModifier: 0.80
   - type: EyeCursorOffset
-    maxOffset: 16
-    pvsIncrease: 0.7
+    maxOffset: 23
+    pvsIncrease: 1.5
 
 - type: entity
   parent: BaseItem
@@ -77,12 +83,12 @@
   components:
   - type: Wieldable
   - type: WieldableDoAfter
-    timer: 0.7
+    timer: 0.5
   - type: HeldSpeedModifier
-    walkModifier: 0.80
-    sprintModifier: 0.80
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: PullDoAfter
-    pullTime: 1
+    pullTime: 2
   - type: FarGunshot
     range: 150
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/rpg_dist.ogg
