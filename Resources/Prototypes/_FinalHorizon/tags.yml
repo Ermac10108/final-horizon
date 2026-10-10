@@ -42,6 +42,12 @@
 - type: Tag
   id: CartridgeSMAW
 
+- type: Tag
+  id: CartridgeM406
+
+- type: Tag
+  id: CartridgeVOG25
+
 # Radios
 - type: Tag
   id: EncryptionNato
