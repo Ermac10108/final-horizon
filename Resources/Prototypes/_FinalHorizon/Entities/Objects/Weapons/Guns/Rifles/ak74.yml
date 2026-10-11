@@ -21,7 +21,6 @@
     slots:
     - Back
     - suitStorage
-  - type: AmmoCounter
   - type: Gun
     fireRate: 7
     selectedMode: FullAuto
@@ -36,8 +35,11 @@
     soundEmpty:
       path: /Audio/_FinalHorizon/Weapons/Guns/Empty/gen_empty.ogg
   - type: ChamberMagazineAmmoProvider
+    soundBoltClosed:
+      path: /Audio/_FinalHorizon/Weapons/Guns/Cock/ak74_cock.ogg
+      volume: 2
     soundRack:
-      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+      path: /Audio/_FinalHorizon/Weapons/Guns/Cock/ak74_cock.ogg
     canActivateInhand: false
   - type: ContainerContainer
     containers:
@@ -69,6 +71,12 @@
      enum.AmmoVisuals.MagLoaded: false
   - type: FarGunshot
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/ak_dist.ogg
+  - type: EmitSoundOnPickup
+    sound:
+      path: /Audio/_FinalHorizon/Weapons/Guns/Draw/ak74_draw.ogg
+      params:
+        volume: -2
+
 
 - type: entity
   name: AK-74 + GP-25
