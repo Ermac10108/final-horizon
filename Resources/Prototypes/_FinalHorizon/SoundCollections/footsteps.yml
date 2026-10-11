@@ -95,9 +95,10 @@
   - /Audio/_FinalHorizon/Effects/Footsteps/wood8.ogg
 
 - type: soundCollection
-  id: FHStickBreak #did it this way cause im Lazy As fuck And didnt want to find the actual stick break sound
+  id: FHStickBreak
   files:
-  - /Audio/_FinalHorizon/Effects/bonebreak1.ogg
-  - /Audio/_FinalHorizon/Effects/bonebreak2.ogg
-  - /Audio/_FinalHorizon/Effects/bonebreak3.ogg
-  - /Audio/_FinalHorizon/Effects/bonebreak4.ogg
+  - /Audio/_FinalHorizon/Effects/foliage_forest_01.ogg
+  - /Audio/_FinalHorizon/Effects/foliage_forest_02.ogg
+  - /Audio/_FinalHorizon/Effects/foliage_forest_03.ogg
+  - /Audio/_FinalHorizon/Effects/foliage_forest_04.ogg
+  - /Audio/_FinalHorizon/Effects/foliage_forest_05.ogg

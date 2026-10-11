@@ -26678,7 +26678,7 @@ entities:
     - type: Transform
       pos: 5.5,-1.5
       parent: 1
-- proto: IFAKUSMCFilled
+- proto: FHIFAKUSMCFilled
   entities:
   - uid: 2103
     components:
