@@ -86,7 +86,7 @@
     outerClothing: FHClothingOuterArmorFlak
     back: FHClothingBackRadioANPRC77
     belt: FHClothingBeltUSMCHarness
-    pouchleft: FHClothingPouchUSMCGrenadeFilled
+    pouchleft: FHClothingPouchUSMCAmmo40Filled
     pouchright: FHClothingPouchUSMCAmmoDoubleFilled
     suitstorage: FHWeaponRifleM16A2GL
     head: FHClothingHeadHelmetM1Woodland
@@ -366,7 +366,7 @@
     back: FHClothingBackpackUSMCButtPack
     belt: FHClothingBeltUSMCHarness
     pouchleft: FHClothingPouchUSMCAmmoFilled
-    pouchright: FHClothingPouchUSMCAmmoFilled
+    pouchright: FHClothingPouchUSMCAmmo40Filled
     suitstorage: FHWeaponRifleM16A2GL
     head: FHClothingHeadHelmetM1
     pocket1: FHIFAKUSMCFilled

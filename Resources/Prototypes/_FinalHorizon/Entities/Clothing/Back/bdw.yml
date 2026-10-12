@@ -33,3 +33,16 @@
         - id: FHMagazineLMGMG3Full
         - id: FHMagazineLMGMG3Full
         - id: FHMagazineLMGMG3Full
+
+- type: entity
+  parent: FHClothingBackpackBDWButtPack
+  id: FHClothingBackpackBDWButtPackFilled
+  suffix: filled, 40mm
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: FHCartridgeM406
+        - id: FHCartridgeM406
+        - id: FHCartridgeM406S
+        - id: FHCartridgeM406S

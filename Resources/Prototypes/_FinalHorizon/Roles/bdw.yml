@@ -393,7 +393,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitBDWGray
     shoes: ClothingShoesBootsJack
-    back: FHClothingBackpackBDWButtPack
+    back: FHClothingBackpackBDWButtPackFilled
     belt: FHClothingBeltBDWHarness
     pouchleft: FHClothingPouchBDWGLHolsterFilled
     pouchright: FHClothingPouchBDWAmmoFilled
