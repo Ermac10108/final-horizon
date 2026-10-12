@@ -395,8 +395,8 @@
     shoes: ClothingShoesBootsJack
     back: FHClothingBackpackBDWButtPackFilled
     belt: FHClothingBeltBDWHarness
-    pouchleft: FHClothingPouchBDWGLHolsterFilled
-    pouchright: FHClothingPouchBDWAmmoFilled
+    pouchleft: FHClothingPouchBDWAmmoFilled
+    pouchright: FHClothingPouchBDWGLHolsterFilled
     suitstorage: FHWeaponRifleG3A3
     head: FHClothingHeadHelmetM62
     pocket1: FHIFAKBDWFilled
