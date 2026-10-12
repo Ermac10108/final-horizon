@@ -11,23 +11,25 @@
     - sprite: _FinalHorizon/Clothing/Underlays/bdw.rsi
       state: hk69a1
       map: [ "hk69a1_fill" ]
+      visible: false
   - type: Clothing
     sprite: _FinalHorizon/Clothing/Pouch/bdw_gl_holster.rsi
   - type: Storage
     maxItemSize: Small
     grid:
-    - 0,0,1,1
+    - 0,0,0,1
     whitelist:
       tags:
       - FHWeaponLauncherHK69A1
   - type: ItemMapper
     spriteLayers:
-    - hk96a1_fill
+    - hk69a1_fill
     mapLayers:
-      holstered:
+      hk69a1_fill:
         whitelist:
           tags:
           - FHWeaponLauncherHK69A1
+  - type: Appearance
 
 - type: entity
   parent: FHClothingPouchBase
