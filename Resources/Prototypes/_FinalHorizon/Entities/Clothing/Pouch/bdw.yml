@@ -32,6 +32,17 @@
   - type: Appearance
 
 - type: entity
+  parent: FHClothingPouchBDWGLHolster
+  id: FHClothingPouchBDWGLHolsterFilled
+  suffix: filled, HK69A1
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: FHWeaponLauncherHK69A1
+
+- type: entity
   parent: FHClothingPouchBase
   id: FHClothingPouchBDWAmmo
   name: BDW Ammo Pouch
