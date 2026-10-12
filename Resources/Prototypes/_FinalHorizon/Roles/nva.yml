@@ -402,7 +402,7 @@
     pocket1: FHIFAKUSSRFilled
 
 - type: startingGear
-  id: NVAUniformGrenadeir
+  id: NVAUniformGrenadier
   equipment:
     jumpsuit: ClothingUniformJumpsuitNVAStricht
     shoes: FHClothingShoesBootsGermanJack
