@@ -214,7 +214,8 @@
   playTimeTracker: BDWGrenadier
   startingGear: BDWUniformGrenadier
   icon: "Nato"
-  whitelisted: false
+  whitelisted: true
+  jobRank: NatoEnlisted
   joinNotifiyCrew: false
   displayWeight: 4
   special:
@@ -243,7 +244,8 @@
   playTimeTracker: BDWAntiTank
   startingGear: BDWUniformAntiTank
   icon: "Nato"
-  whitelisted: false
+  whitelisted: true
+  jobRank: NatoEnlisted
   joinNotifiyCrew: false
   displayWeight: 4
   special:
