@@ -45,7 +45,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        insertSound: /Audio/_FinalHorizon/Weapons/Guns/MagOut/g3_magin.ogg
+        insertSound: /Audio/_FinalHorizon/Weapons/Guns/MagIn/g3_magin.ogg
         ejectSound: /Audio/_FinalHorizon/Weapons/Guns/MagOut/g3_magout.ogg
         priority: 2
         whitelist:

@@ -377,6 +377,7 @@
   description: job-description-USMC-antitank
   playTimeTracker: USMCAntiTank
   startingGear: USMCUniformRifleManAntiTank
+  icon: "Nato"
   whitelisted: true
   jobRank: NatoEnlisted
   joinNotifiyCrew: false
