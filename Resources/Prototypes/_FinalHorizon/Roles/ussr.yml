@@ -243,7 +243,7 @@
   name: job-name-USSR-grenadier
   description: job-description-USSR-grenadier
   playTimeTracker: USSRGrenadier
-  startingGear: USSRGrenadier
+  startingGear: USSRUniformGrenadier
   icon: "Pact"
   whitelisted: true
   jobRank: PactEnlisted
