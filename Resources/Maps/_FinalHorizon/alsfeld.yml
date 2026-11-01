@@ -61,6 +61,8 @@ entities:
     components:
     - type: MetaData
       name: Alsfeld
+    - type: BecomesStation
+      id: Alsfeld
     - type: Transform
     - type: Map
       mapPaused: True
