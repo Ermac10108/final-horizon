@@ -23,6 +23,6 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          collection: GlassBreak
+          collection: FHGlassBreak
       - !type:DoActsBehavior
         acts: [ "Destruction" ]

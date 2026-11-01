@@ -51,7 +51,7 @@
    - "/Audio/_FinalHorizon/Effects/impact/bullet_impact_vest4.ogg"
 
 - type: soundCollection
-  id: GlassBreak
+  id: FHGlassBreak
   files:
    - "/Audio/_FinalHorizon/Effects/impact/Glassbr1.ogg"
    - "/Audio/_FinalHorizon/Effects/impact/Glassbr2.ogg"

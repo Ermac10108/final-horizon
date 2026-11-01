@@ -274,8 +274,7 @@
   playTimeTracker: BDWReservist
   startingGear: BDWUniformReservist
   icon: "Nato"
-  whitelisted: true
-  jobRank: NatoEnlisted
+  whitelisted: false
   joinNotifiyCrew: false
   displayWeight: 4
   special:

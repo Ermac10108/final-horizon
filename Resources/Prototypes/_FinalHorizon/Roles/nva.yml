@@ -274,8 +274,7 @@
   playTimeTracker: NVAReservist
   startingGear: NVAUniformReservist
   icon: "Pact"
-  whitelisted: true
-  jobRank: PactEnlisted
+  whitelisted: false
   joinNotifiyCrew: false
   displayWeight: 5
   special:
